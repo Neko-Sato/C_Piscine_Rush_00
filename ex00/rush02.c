@@ -6,7 +6,7 @@
 /*   By: ketakgi <ketakgi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 22:29:41 by ketakgi           #+#    #+#             */
-/*   Updated: 2023/03/10 23:16:16 by ketakgi          ###   ########.fr       */
+/*   Updated: 2023/03/11 00:31:26 by ketakgi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,8 @@ void	rush(int x, int y)
 			j++;
 		}
 		i++;
-		if (i != y)
-		{
-			ft_putchar('\n');
-		}
+		ft_putchar('\n');
 	}
-	ft_putchar(' ');
 }
 
 void	ft_ch_symble(int i, int j, int x, int y)
