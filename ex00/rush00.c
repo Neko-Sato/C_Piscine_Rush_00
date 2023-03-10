@@ -6,7 +6,7 @@
 /*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 22:36:22 by hshimizu          #+#    #+#             */
-/*   Updated: 2023/03/10 23:27:25 by hshimizu         ###   ########.fr       */
+/*   Updated: 2023/03/11 00:15:02 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,26 +14,26 @@
 
 void	rush(int x, int y)
 {
-	char	t;
+	char	c;
 	int		i[2];
-	int		j[2];
+	int		edge[2];
 
 	i[0] = 0;
-	while (i[0] <= y)
+	while (i[0] < y)
 	{
 		i[1] = 0;
-		while (i[1] <= x)
+		while (i[1] < x)
 		{
-			t = ' ';
-			j[0] = (i[1] == 0 || i[1] == x);
-			j[1] = (i[0] == 0 || i[0] == y);
-			if (j[0])
-				t = '|';
-			if (j[1])
-				t = '-';
-			if (j[0] && j[1])
-				t = 'o';
-			ft_putchar(t);
+			c = ' ';
+			edge[0] = (i[1] == 0 || i[1] == x - 1);
+			edge[1] = (i[0] == 0 || i[0] == y - 1);
+			if (edge[0])
+				c = '|';
+			if (edge[1])
+				c = '-';
+			if (edge[0] && edge[1])
+				c = 'o';
+			ft_putchar(c);
 			i[1]++;
 		}
 		ft_putchar('\n');
