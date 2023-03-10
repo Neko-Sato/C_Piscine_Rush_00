@@ -6,11 +6,11 @@
 /*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 20:17:09 by hshimizu          #+#    #+#             */
-/*   Updated: 2023/03/10 21:31:34 by hshimizu         ###   ########.fr       */
+/*   Updated: 2023/03/10 21:48:57 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <rush01.h>
+#include "rush0X.h"
 
 int	main(void)
 {
