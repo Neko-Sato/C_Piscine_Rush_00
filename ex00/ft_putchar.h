@@ -6,10 +6,10 @@
 /*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 20:47:26 by hshimizu          #+#    #+#             */
-/*   Updated: 2023/03/10 21:34:49 by hshimizu         ###   ########.fr       */
+/*   Updated: 2023/03/10 21:38:39 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
+#include <unistd.h>
 
-void	ft_putchar(char c);
+void ft_putchar(char c);
