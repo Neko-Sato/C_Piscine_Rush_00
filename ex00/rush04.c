@@ -6,7 +6,7 @@
 /*   By: ketakgi <ketakgi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 23:18:39 by ketakgi           #+#    #+#             */
-/*   Updated: 2023/03/10 23:52:11 by ketakgi          ###   ########.fr       */
+/*   Updated: 2023/03/11 00:44:17 by ketakgi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,14 +39,16 @@ void	rush(int x, int y)
 
 void	ft_ch_symble(int i, int j, int x, int y)
 {
-	if ((i==0 && j == 0) || ((i == y-1 && j == x - 1)&&(x!=1&&y!=1)))
+	if ((i == 0 && j == 0) || ((i == y - 1 && j == x - 1) && (x != 1
+				&& y != 1)))
 	{
 		ft_putchar('A');
 	}
-    else if(x==1&&y==1){
-        ft_putchar('A');
-    }
-	else if ((i==0 && j == x - 1) || (i == y - 1 && j  == 0))
+	else if (x == 1 && y == 1)
+	{
+		ft_putchar('A');
+	}
+	else if ((i == 0 && j == x - 1) || (i == y - 1 && j == 0))
 	{
 		ft_putchar('C');
 	}
