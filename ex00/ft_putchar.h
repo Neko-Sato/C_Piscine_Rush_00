@@ -6,14 +6,15 @@
 /*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 20:47:26 by hshimizu          #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2023/03/10 21:38:39 by hshimizu         ###   ########.fr       */
-=======
-/*   Updated: 2023/03/10 22:15:35 by hshimizu         ###   ########.fr       */
->>>>>>> hshimizu
+/*   Updated: 2023/03/10 23:35:25 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#ifndef FT_PUTCHAR_H
+# define FT_PUTCHAR_H
 
-void ft_putchar(char c);
+# include <unistd.h>
+
+void	ft_putchar(char c);
+
+#endif
