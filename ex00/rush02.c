@@ -6,7 +6,7 @@
 /*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 22:29:41 by ketakgi           #+#    #+#             */
-/*   Updated: 2023/03/12 19:48:53 by hshimizu         ###   ########.fr       */
+/*   Updated: 2023/03/12 19:52:18 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,8 @@ void	rush(int x, int y)
 			j++;
 		}
 		i++;
-		if (i != y)
-		{
-			ft_putchar('\n');
-		}
+		ft_putchar('\n');
 	}
-	ft_putchar(' ');
 }
 
 void	ft_ch_symble(int i, int j, int x, int y)
