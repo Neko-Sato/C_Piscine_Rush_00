@@ -6,11 +6,11 @@
 /*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 22:36:22 by hshimizu          #+#    #+#             */
-/*   Updated: 2023/03/11 00:15:02 by hshimizu         ###   ########.fr       */
+/*   Updated: 2023/03/12 19:48:26 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_putchar.h"
+void	ft_putchar(char c); 
 
 void	rush(int x, int y)
 {

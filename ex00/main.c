@@ -6,14 +6,14 @@
 /*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 20:17:09 by hshimizu          #+#    #+#             */
-/*   Updated: 2023/03/10 21:48:57 by hshimizu         ###   ########.fr       */
+/*   Updated: 2023/03/12 19:50:06 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "rush0X.h"
+void	rush(int x, int y);
 
 int	main(void)
 {
-	rush(5, 5);
+	rush(0, 5);
 	return (0);
 }

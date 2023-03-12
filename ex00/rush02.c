@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   rush02.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ketakgi <ketakgi@student.42.fr>            +#+  +:+       +#+        */
+/*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 22:29:41 by ketakgi           #+#    #+#             */
-/*   Updated: 2023/03/10 23:16:16 by ketakgi          ###   ########.fr       */
+/*   Updated: 2023/03/12 19:48:53 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_putchar.h"
+void	ft_putchar(char c); 
 
 void	ft_ch_symble(int i, int j, int x, int y);
 
